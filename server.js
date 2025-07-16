@@ -27,7 +27,7 @@ app.use('/api/v1/transections',require('./routes/transectionRoute'));
 //static files
 app.use(express.static(path.join(__dirname,'./client/build')));
 
-app.use('*',function(req,res){
+app.get('*',function(req,res){
  res.sendFile(path.join(__dirname,'./client/build/index.html'))
 });
 
@@ -37,7 +37,7 @@ app.use('*',function(req,res){
 //});
 
 //port
-const PORT = 8080 || process.env.PORT
+const PORT = process.env.PORT || 8080
 
 //listen server 
 app.listen(PORT,()=>{
