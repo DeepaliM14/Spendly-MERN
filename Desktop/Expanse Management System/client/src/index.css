@@ -1,0 +1,173 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+#Logout-button{
+   padding-right: 10px;
+}
+.content{
+  /*height:100vh;*/
+  min-height: calc(100vh - 64px); /* adjust based on your header/footer height */
+  padding: 0px;/*15px*/
+}
+.home-page{
+  background-color:#d0f0c0 ;
+}
+.filters{
+  background-color: #3b7a57 ;
+}
+
+.register-page{
+  /*background: linear-gradient(to right, #dbeafe, #f0f9ff);*/
+  /*background-color: #644117;*/
+  /*background-color: #d0f0c0;*/
+  background-color: #3b7a57 ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+
+}
+.login-page{
+  /*background: linear-gradient(to right, #dbeafe, #f0f9ff);*/
+  /*background-color: #644117;*/
+  /*background-color: #d0f0c0;*/
+  background-color: #3b7a57 ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+
+}
+.auth-box2 {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.auth-box {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/*.auth-image {
+  flex: 1;
+  background-image: url('./assets/money2.jpeg');
+ /* ✅ Replace with your image path */
+ 
+ /* background-size: cover;
+  background-position: center;
+}*/
+
+.auth-form {
+  flex: 1;
+  padding: 40px;
+  background-color: #fdf5e6 ;
+  /*background-color: #f0f2f5;*/
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #001529;
+}
+
+.auth-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+/*transection page */
+.filters{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px grey;
+}
+.ant-btn-primary {
+  background-color: #dc143c ;    /* Dark premium brown */
+  border-color: #dc143c ;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+/* transection page */
+
+/*antd icons */
+
+.switch-icons{
+  border: 1px solid rgba(0,0,0,0.677);
+  border-radius:5px;
+  padding:10px 15px;
+}
+.anticon svg{
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.active-icon{
+  color:black;
+}
+.inactive-icon{
+  color:grey
+}
+.Incomeblock{
+  background-color: Black;
+  color:#fdf5e6;
+  border: Black;
+  min-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  
+}
+.Expenseblock{
+  background-color: yellow;
+  color:red;
+  border: Yellow;
+  min-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  
+}
+.welcome-heading {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.auth-image {
+  flex: 1;
+  background-image: url('./assets/money2.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-heading {
+  color:#3b7a57 ;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px 10px;
+  margin-bottom: 440px;
+  text-align: center;
+}
+
